@@ -7,7 +7,7 @@ document.addEventListener('DOMContentLoaded', function() {
   document.getElementById("buttonsend").addEventListener("click", function() {
     if (textarea.value.trim() !== '') {
       console.log("Idea Sent");
-  }
+    };
   });
 });
   
