@@ -23,5 +23,7 @@ textarea {
 img {
     position: absolute;
 }
-
-
+.white-box {
+    background-color: white;
+    color: white;
+}
