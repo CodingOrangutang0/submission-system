@@ -10,8 +10,7 @@ body {
 textarea {
     resize: none;
     position: relative;
-    bottom: -250px;
-    left: 600px;   
+     
 }
 buttonsend {
     bottom: -260px;
