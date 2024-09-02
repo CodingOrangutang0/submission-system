@@ -9,6 +9,6 @@ document.addEventListener('DomContentLoaded', function() {
       alert(textarea.value);
   }
   };
-}});
+});
   
 
