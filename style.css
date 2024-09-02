@@ -4,13 +4,14 @@ body {
     background-size: cover;
     background-position: 0px;
     background-repeat: no-repeat;
-    
+ 
 }
 
 textarea {
     resize: none;
     position: relative;
-     
+    bottom: -250px;
+    left: 600px;   
 }
 buttonsend {
     bottom: -260px;
