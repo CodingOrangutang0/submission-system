@@ -1,7 +1,7 @@
 input {
     position: absolute;
     left: 606px;
-    bottom: 390px;
+    bottom: 280px;
 }
 body {
     background-image: url("background.jpg");
@@ -19,4 +19,7 @@ textarea {
     left: 600px;
     
     
+}
+img {
+    position: absolute;
 }
