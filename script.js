@@ -6,9 +6,9 @@ document.addEventListener('DOMContentLoaded', function() {
   const textarea = document.querySelector('textarea');
   document.getElementById("buttonsend").addEventListener("click", function() {
     if (textarea.value.trim() !== '') {
-      console.log("Idea Sent);
+      console.log("Idea Sent");
   }
-  };
+  });
 });
   
 
