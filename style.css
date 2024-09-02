@@ -1,19 +1,22 @@
-
+input {
+    position: absolute;
+    left: 606px;
+    bottom: 390px;
+}
 body {
     background-image: url("background.jpg");
     background-size: cover;
     background-position: 0px;
+    background-position-y: 0px;
     background-repeat: no-repeat;
- 
+    
 }
 
 textarea {
     resize: none;
     position: relative;
-    bottom: -250px;
-    left: 600px;   
-}
-buttonsend {
-    bottom: -260px;
+    bottom: -300px;
     left: 600px;
+    
+    
 }
