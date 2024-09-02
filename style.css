@@ -7,7 +7,7 @@ body {
     background-image: url("background.jpg");
     background-size: cover;
     background-position: 0px;
-    background-position-y: 0px;
+    background-position-y:120px;
     background-repeat: no-repeat;
     
 }
@@ -23,7 +23,4 @@ textarea {
 img {
     position: absolute;
 }
-.white-box {
-    background-color: white;
-    color: white;
-}
+
