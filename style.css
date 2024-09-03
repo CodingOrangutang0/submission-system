@@ -3,7 +3,7 @@ p.big {
     font-family: sans-serif;
 }
 input {
-    position: relative;
+    position: absolute;
     left: 606px;
     bottom: 390px;
 }
