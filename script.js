@@ -7,4 +7,4 @@ function save_as_file() {
     console.log("Idea Sent");
   }
 }
-document.getElementById("buttoninput").addEventListener("click", save_as_file)
+document.getElementById("ideainput").addEventListener("click", save_as_file)
