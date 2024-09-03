@@ -1,7 +1,7 @@
 document.getElementById("buttonsend").addEventListener("click", function() {
   if (textarea.value.trim() !== '') {
-    console.log("Idea Sent");
-    };
+    console.log("Sent")
+  };
 });
 
 
