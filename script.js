@@ -2,13 +2,14 @@
 
 //TODO Sette op knapp funksjonalitet
 
-document.addEventListener('DOMContentLoaded', function() {
-  const textarea = document.querySelector('textarea');
-  document.getElementById("buttonsend").addEventListener("click", function() {
-    if (textarea.value.trim() !== '') {
+
+
+document.getElementById("buttonsend").addEventListener("click", function() {
+   const textarea = document.querySelector('textarea');
+   if (textarea.value.trim() !== '') {
       console.log("Idea Sent");
-    };
-  });
+   };
+
 });
   
 
