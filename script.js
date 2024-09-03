@@ -1,4 +1,4 @@
-document.getElementById("buttonsend").addEventListener("click", function() {
+document.getElementById("ideinput").addEventListener("click", function() {
   if (textarea.value.trim() !== '') {
     console.log("Sent")
   };
