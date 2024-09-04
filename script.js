@@ -1,8 +1,12 @@
 
+
 //TODO Sette op knapp funksjonalitet
-function save_as_file() {
+const activate = document.querySelector("ideainput1")
+function save_as_file1() {
   const textarea = document.querySelector('textarea')
 
   
-  alert("idea Sent");
+  alert('button has been clicked');
 }
+
+activation.onclick = save_as_file1()
