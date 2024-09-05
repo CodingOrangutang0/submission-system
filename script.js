@@ -10,3 +10,5 @@ function save_as_file1() {
 activate.addEventListener('click', () => {
   alert("Button was clicked!");
 });
+
+// TODO FIND OUT WHY this doenst work
