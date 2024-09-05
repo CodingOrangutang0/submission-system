@@ -9,4 +9,4 @@ function save_as_file1() {
   alert('button has been clicked');
 }
 
-activation.onclick = save_as_file1()
+activate.onclick = save_as_file1()
