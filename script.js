@@ -1,5 +1,4 @@
 
-
 //TODO Sette op knapp funksjonalitet
 const activate = document.querySelector("ideainput1")
 function save_as_file1() {
@@ -8,5 +7,6 @@ function save_as_file1() {
   
   alert('button has been clicked');
 }
-
-activate.onclick = save_as_file1()
+activate.addEventListener('click', () => {
+  alert("Button was clicked!");
+});
