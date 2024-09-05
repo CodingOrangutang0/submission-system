@@ -1,7 +1,7 @@
 
 
 //TODO Sette op knapp funksjonalitet
-const activate = document.querySelector("ideainput1")
+const activate = document.querySelector("input")
 function save_as_file1() {
   const textarea = document.querySelector('textarea')
 
