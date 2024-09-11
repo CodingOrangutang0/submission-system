@@ -1,1 +1,1 @@
-The website is currently being moved to another folder this repository will change its directon to a submission system backend made in python
+The original website html code is moved here => https://github.com/CodingOrangutang0/submission_website/
