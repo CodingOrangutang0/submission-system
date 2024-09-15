@@ -2,8 +2,12 @@ import socket
 import requests
 import time
 import os
+wantedserver = None
+currentcommand = None
 def clear():# Clears the python terminal of visual junk.
   os.system('cls' if os.name == 'nt' else 'clear')
+def connect():
+  
 def command_mangaer():
   online = True
   while online:
@@ -17,5 +21,7 @@ def command_mangaer():
       print("3. getserver: Logs you on by sending a fetch request to the host server of the submission system network")
     if currentcommand == "clear":
       clear()
+    if currentcommand == "connect":
+      connect()
 
       
