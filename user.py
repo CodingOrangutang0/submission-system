@@ -9,6 +9,7 @@ def clear():# Clears the python terminal of visual junk.
 def connect():
   
 def command_mangaer():
+  global wantedserver
   online = True
   while online:
     currentcommand = input("Press ? if your new:")
