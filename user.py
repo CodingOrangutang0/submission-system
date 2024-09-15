@@ -7,6 +7,8 @@ currentcommand = None
 def clear():# Clears the python terminal of visual junk.
   os.system('cls' if os.name == 'nt' else 'clear')
 def connect():
+  wantedserver = input("What server do you wish to connect to?:")
+  
   
 def command_mangaer():
   global wantedserver
@@ -19,7 +21,7 @@ def command_mangaer():
       print("These are the currently working commands")
       print("1. ?, You just used this commannd gongrats")
       print("2. clear:Should be used to clear the command line when things get a little cramped.")
-      print("3. getserver: Logs you on by sending a fetch request to the host server of the submission system network")
+      print("3. connect: Logs you on by sending a fetch request to the host server of the submission system network")
     if currentcommand == "clear":
       clear()
     if currentcommand == "connect":
